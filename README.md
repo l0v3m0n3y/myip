@@ -7,8 +7,8 @@ import myip
 let client = Myip()
 
 do {
-    let ip_info = try await client.get_ip_info(ip:"217.199.217.100")
-    print(ip_info)
+    let ipInfo = try await client.getIpInfo(ip:"217.199.217.100")
+    print(ipInfo)
 } catch {
     print("Error: \(error)")
 }
